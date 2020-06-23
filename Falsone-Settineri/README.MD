@@ -63,7 +63,7 @@ The beam shown in the figure was analized with the folllowing code:
 
 * [07_FS_implementation.py](07_FS_implementation.py)
 
-<img src="figs/beam.png">
+<img src="figs/beam.PNG">
 
 The properties of the beam can be found in the code. It is worth to say that it may be an error in the computation of the matrix **K**, because as we see in the graphics of the vertical displacement, rotation angle, bending moment and shear force, ALL OF THEM ARE MORE THAN WHAT THEY ARE SUPPOSED TO BE.
 
