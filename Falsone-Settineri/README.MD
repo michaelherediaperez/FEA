@@ -1,11 +1,10 @@
 # AN EULER-BERNOULLI-LIKE FINITE ELEMENT METHOD FOT TIMOSHENKO BEAMS
 ## Implementation of the G. Falsone and D. Settineri article.
 
-Article can be found here:
+Article can be found [here](https://www.researchgate.net/publication/251506561_An_Euler-Bernoulli-like_finite_element_method_for_Timoshenko_beams).
 
 
-Based on the formulation made by Falsone and Settineri, the procedure to simplify the problem of TBM to a EBBM-like FE is presentened in the following document:
-
+Based on the formulation made by Falsone and Settineri, the procedure to simplify the problem of TBM to a EBBM-like FE is presentened in [this](EF2_rescritura_articulo_michaelherediaperez.pdf) following document more clearly:
 
 ## Stiffness matrix and Equivalent nodal forces vector
 
@@ -47,6 +46,16 @@ f =
 
 Both were calculated with this code:
 
+* [03_K_f_falsone_settinery.py](03_K_f_falsone_settinery.py)
+
+And the Hermite shape functions with this:
+
+* [01_hermite_shape_functions.py](01_hermite_shape_functions.py)
+
+In the end of the article appears a pair of interdependnet shape functiosn that are barely coded here:
+
+* [02_interdependent_shape_functions.py](02_interdependent_shape_functions.py)
+
 
 ## Implementation example
 
@@ -60,8 +69,7 @@ The properties of the beam can be found in the code. It is worth to say that it 
 <img src="figs/tt.png">
 <img src="figs/MM.png">
 <img src="figs/VV_s.png">
-
-
+ 
 ### NOTE
 
-I am still looking forward for the error.
+I am still looking for the error.
