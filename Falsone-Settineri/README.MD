@@ -4,7 +4,7 @@
 Article can be found [here](https://www.researchgate.net/publication/251506561_An_Euler-Bernoulli-like_finite_element_method_for_Timoshenko_beams).
 
 
-Based on the formulation made by Falsone and Settineri, the procedure to simplify the problem of TBM to a EBBM-like FE is presentened in [this](EF2_rescritura_articulo_michaelherediaperez.pdf) following document more clearly:
+Based on the formulation made by Falsone and Settineri, the procedure to simplify the problem of TBM to a EBBM-like FE is presentened in [this](EF2_rescritura_articulo_michaelherediaperez.pdf) document more clearly.
 
 ## Stiffness matrix and Equivalent nodal forces vector
 
@@ -54,7 +54,7 @@ And the Hermite shape functions with this:
 
 * [01_hermite_shape_functions.py](01_hermite_shape_functions.py)
 
-In the end of the article appears a pair of interdependnet shape functiosn that are barely coded here:
+In the end of the article appears a pair of interdependnet shape functions that are barely coded here:
 
 * [02_interdependent_shape_functions.py](02_interdependent_shape_functions.py)
 
