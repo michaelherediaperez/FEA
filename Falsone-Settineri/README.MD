@@ -59,7 +59,7 @@ The properties of the beam can be found in the code. It is worth to say that it 
 <img src="figs/vv.png">
 <img src="figs/tt.png">
 <img src="figs/MM.png">
-<img src="figs/VV.png">
+<img src="figs/VV_s.png">
 
 
 ### NOTE
