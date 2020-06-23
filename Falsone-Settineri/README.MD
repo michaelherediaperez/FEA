@@ -8,7 +8,7 @@ Based on the formulation made by Falsone and Settineri, the procedure to simplif
 
 ## Stiffness matrix and Equivalent nodal forces vector
 
-The computation of **K** and **f** for the 2-noded Timoshenko finite element proposed by the authors was made employing numerical integration over a Gauss-Legendre cuadrature domain. The results are shown here:
+The computation of **K** and **f** for the 2-noded Timoshenko finite element proposed by the authors was made employing numerical integration over a Gauss-Legendre quadrature domain. The results are shown here for **K**:
 
 ```
 K =
@@ -30,6 +30,8 @@ K =
 ⎣ 4⋅(A⋅G⋅α + 3⋅E⋅I)     4⋅(A⋅G⋅α + 3⋅E⋅I)         4⋅A⋅G⋅α + 12⋅E⋅I      4⋅(A⋅G⋅α + 3⋅E⋅I)       ⎦
 
 ```
+
+and for **f** considering ***q*** as a linear distributed load:
 
 ```
 f =
@@ -74,4 +76,4 @@ The properties of the beam can be found in the code. It is worth to say that it 
  
 ### NOTE
 
-I am still looking for the error.
+**I am still looking for the error.**
