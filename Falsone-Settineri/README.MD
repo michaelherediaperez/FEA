@@ -46,7 +46,7 @@ f =
 
 Both were calculated with this code:
 
-* [03_K_f_falsone_settinery.py](03_K_f_falsone_settinery.py)
+* [03_K_f_falsone_settineri.py](03_K_f_falsone_settineri.py)
 
 And the Hermite shape functions with this:
 
@@ -60,6 +60,8 @@ In the end of the article appears a pair of interdependnet shape functiosn that 
 ## Implementation example
 
 The beam shown in the figure was analized with the folllowing code:
+
+* [07_FS_implementation.py](07_FS_implementation.py)
 
 <img src="figs/beam.png">
 
