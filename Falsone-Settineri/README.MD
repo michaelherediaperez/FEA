@@ -1,4 +1,4 @@
-# AN EULER-BERNOULLI-LIKE FINITE ELEMENT METHOD FOT TIMOSHENKO BEAMS
+# AN EULER-BERNOULLI-LIKE FINITE ELEMENT METHOD FOR TIMOSHENKO BEAMS
 ## Implementation of the G. Falsone and D. Settineri article.
 
 Article can be found [here](https://www.researchgate.net/publication/251506561_An_Euler-Bernoulli-like_finite_element_method_for_Timoshenko_beams).
